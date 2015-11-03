@@ -1,31 +1,55 @@
 h1 {
 	font-family: 'Monofett', cursive;
-	font-size: 90px;
+	font-size: 80px;
 	text-align: center;
 	color: black;
   margin-top: 30px;
   margin-bottom: 1px;
 }
 
+@media only screen and (max-width: 700px) {
+   h1 { font-size: 3em; }
+   p { font-size: 0.8em; }
+}
+
+#quotecontainer {
+  width: 100%;
+  text-align: center;
+}
+
 #quote {
     font-family: Courier;
     font-size: 13px;
     color: black;
-    padding: 80px;
+    padding: 50px;
+    max-width: 698px;
     text-align: center;
+    display: inline-block;
 }
 
 img {
-	/*width:200px;
-	height:200px;*/
+	width:200px;
+	height:200px;
   border-radius: 15px;
 }
 
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 15px;
-    border-color: white;
+.container {
+  width: 100%;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:center;
+}
+
+.col-md-1 {
+  width:230px;
+  height:230px;
 }
 
 .imgWrap {
@@ -53,4 +77,3 @@ table {
   visibility: visible;
   opacity: 1;
 }
-
