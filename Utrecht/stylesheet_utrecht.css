@@ -1,0 +1,61 @@
+h1 {
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 90px;
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 1px;
+}
+
+p {
+	font-family: Courier;
+	font-size: 13px;
+	text-align: center;
+	color: black;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+
+img {
+	width:200px;
+	height:200px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 70px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
