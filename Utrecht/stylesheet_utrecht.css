@@ -3,7 +3,7 @@ h1 {
 	font-size: 90px;
 	text-align: center;
 	color: black;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 1px;
 }
 
@@ -13,49 +13,31 @@ p {
 	text-align: center;
 	color: black;
 	margin-top: 1px;
-	margin-bottom: 20px;
 }
 
 img {
-	width:200px;
-	height:200px;
+  width: 40%;
+  height: 40%;
+  padding-top: 50px;
 }
 
-table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 10px;
-    border-color: white;
+.container {
+  width: 100%;
 }
 
-a:hover {
-    color: red;
+.row-centered {
+    text-align:center;
 }
 
-.imgWrap {
-  position: relative;
-  height: 200px;
-  width: 200px;
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:center;
 }
 
-.imgDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: none;
-  color: #ffffff;
-  text-align: center;
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 70px;
-  visibility: hidden;
-  opacity: 0;
+.col-md-1 {
+  width:80%;
+  height:80%;
 }
 
-
-.imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}
 
