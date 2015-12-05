@@ -1,0 +1,13 @@
+{
+	"cover" : "giappone_cover.jpg",
+	"people" : [
+		{
+			"name" : "Virginia",
+			"img" : "virginia.jpg"
+		},
+		{
+			"name" : "Marco",
+			"img" : "marco.jpg"
+		}
+	]
+}
